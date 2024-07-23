@@ -49,9 +49,4 @@ export default class TerminalUtil {
     await terminal.inputField({echo: false}).promise
   }
 
-  // teste
-  static async outputVelocidade(chave: string, valor: any){
-    terminal.blue(chave).red(valor, "\n")
-  }
-
 }
